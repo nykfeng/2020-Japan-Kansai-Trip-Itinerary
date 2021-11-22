@@ -1,0 +1,140 @@
+a:link {
+  color: #64c4ed;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a0cc78;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  color: red;
+  text-decoration: none;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.header-pictures {
+  display: inline-block;
+  position: relative;
+  width:100%;
+}
+
+.container-fluid {
+  padding: 10px;
+}
+
+.rest-h1 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+
+.listings-rest {
+  padding: 0;
+  overflow: auto;
+  align-items: center;
+  background-color: #f8f8f8;
+  max-width: 600px;
+  margin: 30px auto;
+  border: 2px solid black;
+}
+
+.header-text {
+  background-color: gold;
+  color: black;
+  font-size: 1400%;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin:0;
+  border-radius: 30%;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.box-container {
+  display: inline-block;
+  position: relative;
+  margin:10px 20px;
+  max-width: 950px;
+
+}
+
+.rest-shortcuts {
+  display: inline-block;
+  position: relative;
+  margin:0;
+}
+
+.rest-price-hour {
+  display: inline-block;
+  position: relative;
+  margin:0;
+  width: 50%;
+}
+
+
+
+.chinese-text {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: Bold;
+  margin: 0;
+}
+
+
+.english-text {
+  font-family: 'Oswald', sans-serif;
+}
+
+.price-text {
+  display: inline-block;
+  font-size: 2rem;
+  background-color: #6bc5d2;
+  color: #fff;
+  margin: 10px 0;
+}
+
+
+.restaurant-attributes {
+  display: inline-block;
+  position: relative;
+  width: 20rem;
+  height: 4rem;
+  /* width: 10%;
+  height: 15%; */
+  margin:0;
+  border: 2px solid red;
+  border-radius: 10%;
+  background-color: #d1eecc;
+
+  left: 50px;
+}
+
+.h1some {
+  display: inline;
+}
+
+.rest-property-img {
+  float: left;
+}
+
+.img-float-right {
+  float: right;
+}
+
+.icon-img {
+  width: 80px;
+  margin: 0 13px;
+}

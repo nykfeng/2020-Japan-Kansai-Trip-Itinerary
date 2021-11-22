@@ -1,0 +1,595 @@
+.wholeBody {
+  background-color: #eae9e9;
+  margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+}
+
+.kyoto-body {
+  background-color: #ebfffb;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+body .header {
+  height: 200px;
+  background-color: #c5f0a4;
+  margin-top: 0;
+}
+
+.bodyPart {
+  margin: 0;
+}
+
+.footer-hr {
+  border-top-width: 0.1em;
+  width: 10%;
+  border-style: solid none none none;
+  border-color: black;
+}
+
+.separator-hr {
+  border-top-width: 0.2em;
+  width: 100%;
+  border-style: double none double none;
+  border-color: #0c9463;
+}
+
+hr {
+  /* border-top-width: 0.7em; */
+  width: 15%;
+  border-style: solid;
+  border-color: #61234e;
+}
+
+.long-hr {
+  border: 1px solid black;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 150px;
+  background-color: #c5f0a4;
+  margin-top: 0;
+}
+
+.headerText {
+  font-size: 60px;
+  color: #8b4367;
+  margin: 0;
+  padding-top: 0;
+}
+
+.logoimg {
+  padding: 50px 0 0 10px;
+}
+
+.menu {
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.menu-table {
+  border: 2px solid black;
+  width: 100%;
+}
+
+.guide-table {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.content-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .calendar_day {
+  border: 0.5px solid black;
+  padding: 0;
+  margin: 0;
+} */
+
+a:link {
+  color: #64c4ed;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a0cc78;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  color: red;
+  text-decoration: none;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Text-link:hover {
+  color: Gold;
+  text-decoration: none;
+
+}
+
+.Text-link {
+  font-weight: bold;
+  background-color: white;
+}
+
+.title-font {
+  font-size: 4rem;
+  color: black;
+}
+
+.ticket {
+  /* background-color: #badfdb; */
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-image: url("wallpaper-ticket.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ticket-img {
+  border-radius: 5%;
+  margin-top:0;
+}
+
+.h1-class {
+  font-size: 90px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+/* Month header */
+.month {
+  padding: 10px 0 0 0;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+.oldDay {
+  text-decoration: line-through;
+}
+
+.travel-tips {
+  opacity: 1;
+}
+
+.osaka-img-container{
+
+  width:1300px;
+  height:1300px;
+  background-color: green;
+}
+
+.osaka-upper-Body {
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity: 0.3;
+}
+
+/* Hotel and restaurant block */
+.hotel-restaurant {
+  margin: 0;
+  background-size: cover;
+  background-image: url("wallpaper-h-r.jpg");
+  background-repeat: no-repeat;
+}
+
+
+.osakaBackground {
+  position: relative;
+  opacity: 0.3;
+}
+
+.menulogo {
+  position: relative;
+}
+
+.menu-table {
+  padding: 10px 0 10px 0;
+  border: 2px solid black;
+  border-left: 0;
+  border-right: 0;
+}
+
+.list {
+  color: #eb7070;
+  border: 2px solid black;
+}
+
+.everyRest {
+  color: #943855;
+  height: 365px;
+  background-color: white;
+}
+
+.restaurant-table {
+  border: 2px solid #eb7070;
+}
+
+.osaka-attractions-body {
+  color: #64c4ed;
+}
+
+
+
+
+
+/***************************check in location contents***********************/
+.location-box-parent {
+  margin: 0;
+  text-align: center;
+
+}
+
+.location-box {
+  background-image: url('https://assets.website-files.com/5e832e12eb7ca02ee9064d42/5f7db3dfd85bd083748f9a46_Group%20805.jpg');
+  align-items: center;
+  display: inline-block;
+  position: relative;
+  margin: 15px;
+  height: 400px;
+  width: 300px;
+  background-color: #f6f6f6;
+  border: 1px black;
+  border-radius: 10px 100px / 120px;
+}
+
+.img-border-hover:hover {
+  border-radius: 100%;
+  border: 1rem solid gold;
+}
+
+.img-border-hover-up:hover {
+  bottom:20px;
+}
+
+.lodging-g-map {
+  margin-top: 100px;
+}
+
+
+
+
+/***************************Kyoto contents***********************/
+.brief-sum {
+  width: 1000px;
+  max-width: 1000px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.intro-img {
+  width: 720px;
+  height: 220px;
+  float: right;
+}
+
+.intro-bloc {
+  background-color: #f8f8f8;
+  margin: 0 auto;
+}
+
+
+.kyoto-places-section {
+  margin: 0;
+  padding: 20px;
+  background-image: url("wallpaper-ticket.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.kyoto-places-bloc {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.kyoto-box {
+  position: relative;
+  display: inline-block;
+  width: 404px;
+  height: 420px;
+  margin: 5px 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 9px;
+  background-color: white;
+}
+
+.kyoto-box-img {
+  width: 400px;
+  height: 200px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.osaka-box-img {
+  width: 400px;
+  height: 250px;
+}
+
+.kyoto-box-title {
+  font-size: 30px;
+  margin:0;
+}
+
+.kyoto-box-description {
+  text-align: left;
+}
+
+.kyoto-row-places {
+  margin-bottom: 20px;
+}
+
+.p-in-kyoto {
+  margin: 0;
+  font-size:17px;
+  font-family: 'Heebo', sans-serif;
+
+}
+
+.kyoto-places-title {
+  display: inline-block;
+  position: relative;
+  font-size: 50px;
+  color: white;
+  left:250px;
+  bottom:58px;
+  margin-top: 0;
+}
+
+.kyoto-places-text {
+  display: inline-block;
+  position: relative;
+  width:400px;
+  height: 300px;
+  left: 10px;
+  bottom: 20px;
+
+}
+/******************************reference section********************/
+.reference-sec-img {
+  width: 300px;
+ padding: 5px;
+
+}
+
+.reference-row {
+  padding: 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.btn-border-it {
+  border: 4px solid #004445;
+  border-radius: 30%;
+  background-color: #e3e7f1;
+  max-width: 550px;
+
+}
+
+
+
+
+
+
+
+
+
+/******************************End of reference section********************/
+
+
+
+/******************************Memo and tips section********************/
+/***************************** memo section *****************************/
+
+.memo-class {
+  background-color: #f6f078;
+  padding: 3%;
+  text-align: center;
+  background-image: url("wallpaper-ticket.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.memo {
+  width:900px;
+  margin: 20px auto;
+  text-align: left;
+  background-color: white;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius:10%;
+  padding: 15px;
+}
+
+.memo-specific {
+  color: black;
+}
+
+.memo-img {
+  margin-right: 15px;
+  float: left;
+}
+
+.memo-p {
+  margin:0;
+}
+/* .memo-h2 {
+  text-align: center;
+} */
+
+.chinese-text {
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.english-text {
+  font-family: 'Playfair Display', serif;
+}
+
+.ms-yahei {
+ font-family: Arial, 'Microsoft Yahei';
+}
+
+.div-inline {
+  display: inline-block;
+  position: relative;
+}
+
+.another-english-font {
+
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.summary-body-chn-fonts {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  max-width: 1300px;
+  margin: 10px auto;
+  font-size: 120%;
+  padding: 10px 20px;
+  /*font-family: 'Zhi Mang Xing', cursive;*/
+}
+
+.hightline-red {
+  color: #ef4b4b;
+}
+
+/********************************button**********************/
+.butn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -moz-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -ms-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -o-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: linear-gradient(to bottom, #ffffff, #c7c7c7);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #354e5e;
+  text-decoration: none;
+}
+
+
+
+/******************************the food category section********************/
+.food-restaurant-list {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background-color: gold;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.food-cate-parent {
+  text-align: center;
+}
+
+
+.food-text {
+  font-size:48px;
+  font-family: 'Lobster', cursive;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  bottom:0;
+  left:10px;
+}
